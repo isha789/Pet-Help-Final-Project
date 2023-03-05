@@ -12,7 +12,7 @@ const HomeFooter = () => {
   return (
     <div id="container">
 
-      <CDBFooter className="shadow fixed-bottom " id="footer">
+
         <CDBBox
           display="flex"
           justifyContent="between"
@@ -60,7 +60,7 @@ const HomeFooter = () => {
             </div>
           </CDBBox>
         </CDBBox>
-      </CDBFooter>
+   
     </div>
 
   )
