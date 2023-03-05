@@ -1,0 +1,11 @@
+{
+  "name": "final-project-pethelp",
+  "version": "1.0.0",
+  "description": ">Pethelp webiste is a project that helps lost pets find their owner.\r The user can submit a form with information about the animal to our database, and on the lost pet page, they will be able to see all the lost animals, and search for them by color, type of animal and city.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

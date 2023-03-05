@@ -1,0 +1,65 @@
+@import '../../../style/style.scss';
+.navbar {
+   background-color: #424245;
+   color: white;
+    width: 100%;
+    position:fixed;
+    &__brand{
+        font-size: 1.6rem;
+        text-transform: capitalize;
+        
+    }
+    &__logo{
+        height: 2rem;
+        padding-left: 5rem;
+        
+    }
+ 
+    
+}
+
+.link{
+        padding-right: 2rem !important;
+        transition: all 1s;
+        margin-top: 3px;
+        text-transform: uppercase;
+        &:hover,
+        &:active{
+            color: $mustard;
+        }
+    
+}
+
+.logout{
+    margin-right: 3rem;
+    transition: all .5s;
+    &:hover,
+        &:active{
+            color: $chestnut;
+        }
+}
+
+.justify-content-end{
+    @include respond(tab-port){
+        a.nav-link{
+           padding-left:calc(100vw - 100vw/2) ;
+       
+        }
+    }
+    @include respond(phone){
+        a.nav-link{
+            padding-left:calc(100vw - 100vw/2);
+        }
+    }
+}
+
+#logout {
+    margin-right: 18px;
+    margin-top: 2px;
+}
+
+.toggle {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
